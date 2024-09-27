@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <h1 style="text-align: center;">Cricket Game</h1>
+    <div class="container" disabled>
+        <div class="scoreboard">
+            <div class="action">
+                <h1>Action</h1>
+                <div class="u">
+                    <div class="user-action">
+                        <h3 class="ti">User</h3>
+                        <h1 class="ua box" id="us">.</h1>
+                    </div>
+                    <div class="sys-action">
+                        <h3 class="ti">System</h3>
+                        <h1 class="ua box" id="ss">.</h1>
+                    </div>
+                    <div class="al">
+                        <h2>WICKET</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="score">
+                <h1>Score</h1>
+                <h1 class="s">
+                    <div id="mainscore">0</div>/
+                    <div id="mainwick">0</div>
+                </h1>
+            </div>
+            <div class="wickets">
+                <div class="overs">
+                    <h1>Overs</h1>
+                    <h1><span id="ov">0</span>.<span id="bal">0</span></h1>
+                </div>
+                <div class="over">
+                    <div class="ball" id="1">.</div>
+                    <div class="ball" id="2">.</div>
+                    <div class="ball" id="3">.</div>
+                    <div class="ball" id="4">.</div>
+                    <div class="ball" id="5">.</div>
+                    <div class="ball" id="6">.</div>
+                </div>
+            </div>
+        </div> 
+        <div class="options">
+            <div class="option" id="0">0</div>
+            <div class="option" id="1">1</div>
+            <div class="option" id="2">2</div>
+            <div class="option" id="3">3</div>
+            <div class="option" id="4">4</div>
+            <div class="option" id="5">5</div>
+            <div class="option" id="6">6</div>
+        </div>
+    </div>
+    <div class="gameover">
+        <span class="material-symbols-outlined" id="gamestart">close</span>
+        <h1 class="con">GAME OVER</h1>
+        <h1 class="con">Score : <span id="scoretotal"></span></h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
